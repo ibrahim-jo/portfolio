@@ -3,31 +3,89 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Contact-us</title>
   </head>
   <body>
-    <h2>contact Us</h2>
-    <!--Status Code:
-405 Method Post Not Allowed  
-need help 
--->
-    <form  action="" method="post">
-      <div>
-        <label for="name">Name </label>
-        <input type="text" id="name" name="text"  required/>
+
+    <div class="contactnav">
+      <h1>Ibrahim Dev</h1>
+      <h3>Fullstack Developer | Designer | Programer</h3>
+      <div class="links">
+        <a href="#">About me</a>
+        <a href="#">Skill</a>
+        <a href="#">project</a>
+        <a href="#">contact</a>
       </div>
-      <div>
-        <label for="email">Email </label>
-        <input type="email" id="email" name="email" required/>
-      </div>
-      <div>
-        <label for="textarea">Message </label>
-        <br/>
-        <textarea id="textarea" rows="5" cols="30" name="text" ></textarea>
-      </div>
-      <div>
-        <input type="submit" value="Send" />
-      </div>
-    </form>
+
+    </div>
+    <div class="aboutinfo">
+      <h2>About me</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quod nihil explicabo harum voluptatibus quasi odio quae quibusdam odit eos, omnis natus totam eum possimus, inventore unde consequatur magnam optio.</p>
+    </div>
+    <div class="section2">
+      <h2>Skill</h2>
+         <div class="sticknav">
+
+           <button>HTML && Css</button>
+           
+           <button>JavaScript</button>
+           
+           <button>React & Redux</button>
+           
+           <button>Nodejs & Express</button>
+           
+           <button>Git & Github </button>
+          </div>
+        
+    </div>
+
+  <section class="projects">
+    <h1>Projects</h1>
+    <div id="task">
+      <h2>task management app</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut exercitationem dolorem fugit nisi minus ratione nam provident sequi possimus, pariatur quaerat assumenda maiores repellendus ullam. Ipsam expedita eum reiciendis ea.</p>
+    </div>
+    <div>
+      <h2 id="port">portfolio</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod ad soluta eligendi consequuntur pariatur, dignissimos expedita suscipit alias nemo, officia ipsa quasi iste a itaque incidunt accusamus. Pariatur, inventore nemo.</p>
+    </div>
+    <div id="ecom">
+      <h2>E-commerce</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, sunt laboriosam eligendi quod debitis, ab dicta pariatur fugit inventore asperiores a accusamus laudantium, exercitationem perspiciatis vitae nam? Rem, cum ad.</p>
+    </div>
+    <div id="blog">
+      <h2>Blog platform</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, saepe cum quibusdam unde ex dolores dolore harum provident eligendi labore quis nesciunt reiciendis porro dicta nulla dolorum fugit corrupti itaque.</p>
+    </div>
+
+  </section>
+<section class="contact" >
+
+  <h2>contact Me</h2>
+  <p>if you'd like to get in  touch , please fill out the form below </p>
+  <!--Status Code:
+  405 Method Post Not Allowed  
+  need help 
+  -->
+  <form  action="" method="post">
+    <div>
+      <label for="name">Name </label><br/>
+      <input type="text" id="name" name="text" placeholder="your Name" required/>
+    </div>
+    <div>
+      <label for="email">Email </label><br/>
+      <input type="email" id="email" name="email" required placeholder="your Email "/>
+    </div>
+    <div>
+      <label for="textarea">Message </label>
+      <br/>
+      <textarea id="textarea" rows="8" cols="30" name="text" placeholder="your Message" ></textarea>
+    </div>
+    <div>
+      <input type="submit" value="Send" class="btn" />
+    </div>
+  </form>
+</section>
   </body>
 </html>

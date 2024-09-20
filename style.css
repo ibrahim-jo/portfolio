@@ -242,6 +242,177 @@
     font-weight:600;
    
 }
+.section2{
+    background-image: url('./milky.jpg');
+    background-position: center;
+    background-size:cover;
+    height: 180px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+.section2 h2{
+    color: aliceblue;
+    text-align: left;
+    font-size: xx-large;
+    text-transform: capitalize;
+    font-family: serif;
+}
+
+.sticknav{
+    height: 70px;
+    background-color: #f0f8ff99;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+}
+
+.sticknav button{
+   height: 40px;
+   padding: 5px 35px;
+   font-size: larger;
+   border-radius: 10px;
+   background-color: #29c0cfba;
+   border: unset;
+   margin-right: 50px;
+   margin-left: 50px;
+}
+.sticknav button:hover{
+    
+    position: relative;
+   bottom:10px;
+   background-color: #9feae3;
+   cursor:grab;
+
+}
+
+
+ .contactnav{ background: beige;
+margin: 10px 30px;
+padding: 50px;
+border-radius: 15px;
+text-align: center;
+}
+.contactnav h1{
+    font-family: serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.contactnav h3{
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: overline;
+}
+
+.links{
+    padding-top: 10px;
+    font-size: large;
+    text-transform: uppercase;
+}
+.links a{
+        padding-right: 15px;
+        text-decoration: none;
+        color: black;
+}
+
+.links a:hover{
+    cursor: pointer;
+    color: rgb(69, 81, 81);
+}
+
+.aboutinfo{
+    margin: 20px;
+    padding: 20px;
+    background: aliceblue;
+    border-radius: 10px;
+    height: 350px;
+    box-shadow: 1px 2px 3px #ccc2c2de;
+}
+
+.aboutinfo p{
+    font-size: x-large;
+    font-family: fangsong;
+
+}
+.aboutinfo h2{
+    text-transform: capitalize;
+    font-family: auto;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+.projects{
+    background-color: aliceblue;
+    position: relative;
+    height: auto;
+    margin: 15px;
+    padding: 25px;
+    border-radius: 15px;
+}
+.projects div{
+    position: relative;
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px 4px #f0d8d8;
+    padding: 20px;
+    top: -200px;
+
+}
+#task{
+    position: relative;
+    background-color: aquamarine;
+    top: -500px;
+}
+#blog{
+    position: absolute;
+    left: 20px;
+    top: 710px;
+    width: 1850px;
+    background-color: cornflowerblue;
+}
+.contact{
+    width: 1850px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+.contact h2{
+    font-family: math;
+    text-transform: capitalize;
+    font-size: xx-large;
+
+}
+.contact p{
+    margin: 5px 0px 5px 0px;
+    font-size: x-large;
+}
+form div{
+   
+    padding: 10px;
+    height: 150px;
+    margin-top: 10px;
+
+}
+form div input,textarea{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    font-size: larger;
+    padding: 10px;
+}
+.btn{
+    height: 80px;
+    border: 1px solid green;
+    color: green;
+    text-align: center;
+}
 
 
 
