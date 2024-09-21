@@ -414,5 +414,28 @@ form div input,textarea{
     text-align: center;
 }
 
+.footer1{
+    background-color: #403a3a;
+    width: 1850px;
+    height: 65px;
+    margin: 15px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
 
-
+}
+.footer1 span,a{
+    position: relative;
+    top: 20px;
+    border-right: 2px solid;
+    padding: 10px;
+    font-size: larger;
+    text-transform: capitalize;
+}
+.footer1 a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.footer1 a:hover{
+    color: #9feae3;
+}
