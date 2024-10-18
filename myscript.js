@@ -5,6 +5,7 @@ const menu = [
   "toggle Task Completion",
   "Edit Task",
   "Delete Task",
+  "find Task",
   "Exit",
 ];
 let tasks = [];
@@ -16,7 +17,7 @@ const m = () => {
 
 const taskId = () => {
   const inp= prompt("inter the proses ID")
-  if(inp>=1 && inp<=6) 
+  if(inp>=1 && inp<=7) 
     return inp
   else{
     console.log('invalid choice,please enter a number between 1 - 6')
@@ -94,6 +95,7 @@ const editTask = () => {
 const deleteTask = () => {
   const id = prompt("inter Id Task to Delete");
   const data=[...JSON.parse(localStorage.getItem('todolist'))]
+
   const editdata = data.filter((element) => {
     return element.id != id;
   });
@@ -106,6 +108,22 @@ const deleteTask = () => {
   }
   start();
 };
+const findTask=()=>{
+  const findTask = prompt("find Task");
+  const data=[...JSON.parse(localStorage.getItem('todolist'))]
+  if(data){
+
+  const target=data.filter((element)=>{return element.task ==findTask})
+
+  console.log("result of search",`${target[0].id}.${target[0].task} [${
+          target[0].status ? "complete" : "incomplete"
+        }]`)
+  }
+  else{
+    console.log('no Tasks')
+  }
+   start()
+}
 
 const start = () => {
   m();
@@ -121,6 +139,8 @@ const start = () => {
       editTask();
     case "5":
       deleteTask();
+      case '6':
+        findTask()
       
    
     default:
